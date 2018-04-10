@@ -1,0 +1,193 @@
+body
+{
+    margin: 30px 50px;
+}
+a
+{
+  color: white;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+li
+{
+  list-style: none;
+  font-size: 15px;
+}
+ul
+{
+    background-color: grey;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ li>#companyName
+{
+    float: left ;
+    font-size: 40px; 
+    margin: 0px 5px 15px 5px;
+    font-weight: bold;
+}
+li>#right
+{
+    float: right;
+    margin-top: 15px;
+}
+.title
+{
+    display: block;
+    height: 200px;
+    background-color: black;  
+    margin-top: 0;
+    max-height: 250px;  
+    font-weight: bold;   
+}
+.title>p
+{
+    color: yellow;
+    font-size: 83px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 80px 10px;
+    height: 60px;  
+}
+
+.top
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+    grid-column-gap: 100px;
+    padding: 1.5rem 2rem;
+    
+}
+
+.top>#top1,.top>#top2,.top>#top3
+{
+    border-radius: 8px;
+    height: 200px;
+    background: rgb(185, 233, 185);
+}
+
+.middle
+{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-top: 40px;
+    padding: 1.5rem 2rem;
+    grid-column-gap: 60px;
+}
+
+.middle>#top1, .middle>#top2
+{
+    height: 200px;
+    background-color: goldenrod;
+   
+}
+.bottom
+{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-top: 30px;
+    padding: 1.5rem 2rem;
+    grid-column-gap: 60px;
+}
+
+.bottom>#top1, .bottom>#top2
+{
+   padding: 20px;
+}
+.bottom>#top2
+{
+    background-image: url('elephant.jpg');
+}
+#footer
+{
+    height: 70px;
+    background-color: rgb(39, 15, 39);
+}
+
+/*
+.top,.middle,.bottom
+{
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+.top
+{
+    display:flex;
+    justify-content: space-around;
+}
+.middle
+{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.top>#top1
+{
+    margin-left: 0;
+}
+.top>#top2
+{
+    margin-left: 15px;
+}
+.top>#top3
+{
+    margin-right: 0;
+    float: right;
+}
+
+.middle,.bottom
+{
+    margin-top: 10px;
+}
+
+.top>#top1,.top>#top2,.top>#top3
+{
+    border-radius: 8px;
+    background-color: rgb(185, 233, 185);
+    width: 200px;
+    height: 200px;
+  
+}
+
+.middle>#top1,.middle>#top2
+{
+    width: 334px;
+    height: 200px;
+    background-color: goldenrod;
+    margin-top: 15px;
+}
+
+.bottom>#top1,.bottom>#top2
+{
+    width: 334px;
+    height: 200px;
+    margin-top: 15px;
+}
+.bottom>#top1>p
+{
+    padding: 10px 25px; 
+    justify-content: center;  
+}
+.bottom>#top2
+{
+    padding: 10px 25px; 
+    background-image: url('elephant.jpg');
+    width: 110px;
+    height: 80px;
+    
+}
+
+*/
